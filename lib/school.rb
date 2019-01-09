@@ -1,7 +1,6 @@
 # code here!
 class School
   
-  
    roster = {}
   
   def initialize(school_name)
