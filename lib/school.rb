@@ -2,7 +2,7 @@
 class School
   
   
-   = {}
+   roster = {}
   
   def initialize(school_name)
     @school_name = school_name
@@ -14,5 +14,7 @@ class School
     end
     roster[grade].push(student_name)
   end
+  
+  def roster
 
 end
