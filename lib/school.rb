@@ -15,5 +15,8 @@ class School
     roster[grade].push(student_name)
   end
   
+  def grade(num)
+    return @roster[num]
+  end
 
 end
